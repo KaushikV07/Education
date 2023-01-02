@@ -1,0 +1,114 @@
+.class{
+    padding: 0;margin: 0;
+}
+
+.class__details{
+    text-align: center;
+}
+
+.class__details > h1{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.class__details > p{
+    width: 70%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.class__row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.class__col{
+    width: 33.33%;
+}
+
+.class__details2{
+    width: 370px;
+    background-color: #fff5f3;
+    padding: 15px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 1px 15px black;
+}
+
+.class__details2 > img{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.class__details2 > h1{
+    font-size: 25px;
+    margin-bottom: 20px;
+    transition: all 0.5s;
+}
+
+.class__details2 > h1:hover{
+    color: orange;
+}
+
+.class__user{
+    display: flex;
+    align-items: center;
+}
+
+.class__user > img{
+    width: 70px;
+    border-radius: 50%;
+}
+
+.user__name > h2{
+    font-size: 16px;
+    color: orange;
+    margin-right: 90px;
+    font-weight: 600;
+}
+
+.user__name > h3{
+    font-size: 16px;
+    font-weight:500;
+}
+
+.class__amount  > button{
+    width: 100px;
+    padding: 10px 0;
+    font-size: 15px;
+    color: white;
+    background-color: orangered;
+    border: none;
+    border-radius: 4px;
+}
+
+.class__agegroup{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.age > h3 ,
+.time > h3,
+.capacity > h3{
+    border-top: 2px solid green;
+    width: 100%;
+    font-size: 18px;
+    padding-top: 5px;
+}
+
+.age > p,
+.time > p,
+.capacity > p{
+    font-size: 15px;
+}
+
+.time > h3{
+    border-top: 2px solid orangered;
+}
+
+.capacity > h3{
+    border-top: 2px solid rebeccapurple;
+}

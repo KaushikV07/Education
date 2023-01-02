@@ -1,0 +1,56 @@
+.banner{
+    padding: 0;margin: 0;
+    background-image: url(/public/Images/hero.jpg);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.banner_in{
+    padding: 190px 0;
+    margin: 0;
+}
+
+.banner_text{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 50%;
+    border-radius: 10px;
+    padding: 20px ;
+}
+
+.banner_text > h1{
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+.banner_text > p{
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.button > button{
+    margin-right: 20px;
+    padding: 10px 25px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+
+.button > button:first-child,
+.button > button:last-child:hover{
+    background-color: orangered;
+    border: none;
+}
+
+.button > button:last-child,
+.button > button:first-child:hover{
+    background-color: blueviolet;
+    border: none;
+}
+
+
+

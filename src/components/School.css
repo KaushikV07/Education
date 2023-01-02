@@ -1,0 +1,78 @@
+.school{
+    padding: 90px 0;margin:0;
+}
+
+.school__text{
+    text-align: center;
+}
+
+.school__text > h1{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.school__text > p{
+    margin-bottom: 20px;
+}
+
+.school__row{
+    display: flex;
+    gap: 20px;
+}
+
+.school__col{
+    width: 25%;
+}
+
+.school__details{
+    padding: 20px ;
+    text-align: center;
+    transition: all 0.8s;
+    border-radius: 10px;
+}
+
+.school__details > .MuiSvgIcon-root{
+    font-size: 40px;
+}
+
+.school__details > h3{
+    text-align: center;
+    font-size: 23px;
+}
+
+.school__details > p{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.school__col:nth-child(1) .school__details{
+    background-color:#fff5f3;
+    color: red;
+}
+.school__col:nth-child(2) .school__details{
+    background-color:#cdf4d4;
+    color: green;
+}.school__col:nth-child(3) .school__details{
+    background-color:#f9fae2;
+    color: yellow;
+}.school__col:nth-child(4) .school__details{
+    background-color:#e5f8fd;
+    color: aqua;
+}
+
+.school__col:nth-child(1) .school__details:hover{
+    background-color: red;
+    color: white;
+}
+.school__col:nth-child(2) .school__details:hover{
+    background-color: green;
+    color: white;
+}
+.school__col:nth-child(3) .school__details:hover{
+    background-color: yellow;
+    color: white;
+}
+.school__col:nth-child(4) .school__details:hover{
+    background-color: aqua;
+    color: white;
+}

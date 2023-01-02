@@ -1,0 +1,97 @@
+.footer{
+    padding: 30px 0;margin: 90px 0 0 0;
+    background-color: #103741;
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.footer__row{
+    display: flex;
+}
+
+.footer__col{
+    width: 33.33%;
+}
+
+.footer__details{
+    display: flex;
+    flex-direction: column;
+}
+.footer__details > h1{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.footer__details > nav li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.footer__details > nav li > .MuiSvgIcon-root{
+    margin-right: 15px;
+}
+
+.footer__details > .footer__icons > .MuiSvgIcon-root{
+    font-size: 45px;
+    margin: 10px 15px;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 5px;
+    transition: all 0.5s;
+}
+
+.footer__details > .footer__icons > .MuiSvgIcon-root:first-child{
+    margin-left: 0;
+}
+
+.footer__details > .footer__icons > .MuiSvgIcon-root:hover{
+    background-color: orange;
+}
+
+.footer__details > p{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.footer__submit{
+    display: flex;
+}
+
+.footer__submit > input{
+    background-color: transparent;
+    outline: none;
+    border: 2px solid white;
+    width: 60%;
+    padding: 10px 0;
+    color: white;
+    font-size: 18px;
+}
+
+.footer__submit > button{
+    width: 40%;
+    background-color: orange;
+    color: white;
+    font-size: 18px;
+    border: 2px solid white;
+}
+
+.last__footer{
+    font-size: 20px;
+    background-color: #103741;
+    color: white;
+    padding: 15px 0;
+}
+.last__footer > p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.last__footer > p a{
+    color: orange;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 5px;
+}
